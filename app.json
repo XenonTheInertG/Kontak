@@ -1,0 +1,66 @@
+{
+  "name": "Kontak",
+  "description": "Simple bot to receive feedback just like livegram",
+  "keywords": [
+    "telegram",
+    "livegram",
+    "kontak",
+    "bot"
+  ],
+  "success_url": "https://telegram.dog//",
+  "website": "https://github.com/XenonTheInertG/Kontak",
+  "repository": "https://github.com/XenonTheInertG/Kontak",
+  "env": {
+    "START_TEXT": {
+      "description": "Your Start message as a string & Default is 'Hello <username>'.",
+      "value": ""
+    },
+    "HELP_TEXT": {
+      "description": "Your Help Text as a string.",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Your ID Or Who need is going to handle this bot",
+      "value": ""
+    },
+    "DONATE_TEXT": {
+      "description": "Your Donate Text as a string.",
+      "value": ""
+    },
+    "DONATE_LINK": {
+      "description": "Your Donation Link",
+      "value": "https://paypal.me/XenonTheInertG/"
+    },
+    "SUPPORT_GROUP": {
+      "description": "Your Group Link",
+      "value": "https://t.me/techtweaky"
+    },
+    "UPDATE_CHANNEL": {
+      "description": "Your Channel Link",
+      "value": "https://t.me/techtweakers/"
+    },
+    "BOT_TOKEN": {
+      "description": "Your Bot Token, as a string.",
+      "value": ""
+    },
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    }
+  },
+  "addons": [
+  ],
+  "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
