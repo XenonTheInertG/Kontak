@@ -1,5 +1,4 @@
-'''XenonBot Extended Module-Kontak'''
-# Copyright(C) 2021 XenonTheInertG
+"""XenonBot Extended Module-Kontak"""
 
 import pyrogram
 
