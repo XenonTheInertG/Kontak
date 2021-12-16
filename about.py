@@ -1,6 +1,6 @@
 from config import Config
 
-class about(object):
+class About(object):
       START = str(Config.START)
 
       RULES = Config.RULES
